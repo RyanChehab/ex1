@@ -1,7 +1,8 @@
 while True:
     try:
-        n= int(input("Please enter a number: "))
-        break
+        n= int(input("Please enter a positive number: "))
+        if n>0:
+            break
     except ValueError:
         print("wrong input!")
 
