@@ -7,12 +7,13 @@ while True:
         print("wrong input!")
 
 counter=1
+width = n*2
 
 for _ in range(n):
-    print('*' * counter)
+    print(('*' * counter).center(width))
     counter+=2
 
 counter-=4
 for _ in range(n):
-    print('*' * counter)
+    print(('*' * counter).center(width))
     counter-=2
