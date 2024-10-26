@@ -8,7 +8,6 @@ while True:
 
 counter=1
 width = n*2
-
 for _ in range(n):
     print(('*' * counter).center(width))
     counter+=2
